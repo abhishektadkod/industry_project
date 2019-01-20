@@ -1,0 +1,67 @@
+
+	
+	.iframe-container{
+	opacity:0.8;
+	top:10px;
+	right:45px;
+	
+    position: relative;
+	width:40%;
+    padding-bottom: 18%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+	}
+	
+	.iframe-container > *{
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		}
+
+	label{font-family: 'Gruppo', cursive;font-size:20px;}
+
+}
+
+	
+
+	.well{background-color:white;}
+	.contact{font-family: 'Gruppo', cursive;margin-top:20px;margin-left:50px;	}
+	.Contact1{background-color:black;height:520px;margin-top:0px;}
+	.fa{color:white;}
+	.fa:hover{
+		color:rgb(27, 189, 189);
+		text-decoration:none;
+	}
+	
+	@media only screen and (max-width: 1000px) {
+    .space1{
+		height:450px;
+        background-color:#dce0e8;
+    }
+	
+	
+	
+	.footers{margin-top:60px;}
+	
+	.Map{
+		height:400px;
+	}
+	
+	.space2{
+		height:200px;
+        background-color: black;
+    }
+	
+	.iframe-container > *{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .iframe-container{
+        padding-bottom:50%;
+    }
+	
+}

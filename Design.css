@@ -1,0 +1,99 @@
+*{box-sizing:border-box;}
+
+body{margin:0;
+font-family:Courier New;}
+
+.header{padding:40px 10px;
+background-color:white;
+position:fixed;
+overflow:hidden;
+width:100%;
+background-color:black;
+height:15%;
+}
+
+.header a{float: left;
+  color: white;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+   font-size: 15px; 
+  line-height: 1px;
+  border-radius: 4px; }
+
+.header a:hover{background-color:black;
+color:green;
+text-decoration:none;
+transition: 0.3s;
+opacity:0.6;}
+
+.header a.logo{  font-size:50px;
+  }
+ 
+#pic{position:fixed;} 
+  
+ .right{float:right;
+ padding:30px 40px;}
+ 
+ 
+ 
+ 
+.column{height:100%;
+width:100%;}
+
+
+.block2{color:white;
+background-color:#700646;
+height:80%;
+width:50%;
+font-size:15px;
+line-height:2;
+padding:150px 200px;}
+ 
+.colum{
+
+    float: left;
+    width: 50%;
+	height:80%;	
+}
+
+.june{
+color:white;
+background-color:#700646;
+height:80%;
+font-size:15px;
+line-height:2.2;
+padding:150px 200px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;	
+}
+
+/*block1 and may are just for reference*/
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+ 

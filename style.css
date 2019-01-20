@@ -1,0 +1,102 @@
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');*/
+
+body{
+    position: relative;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+/* .carousel-item{
+    transition: -webkit-transition 0.2s ease;
+    transition: transform 0.2s ease;
+    transition : transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+} */
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-fluid{
+    width: 100%;
+}
+
+#mail{
+    font-size: 10px;
+    margin-left: 105%;
+    color: coral;
+}
+
+#new{
+    background-color:;
+    font-size:15px;
+    line-height:2.2;
+    padding:100px 100px;
+    height:100%;
+    overflow:hidden;
+    color:black; 
+}
+
+.para
+{
+    font-size: 10px;
+}
+
+.para
+{
+    background-image: url(i12.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+#companylogo1
+{
+	background-image: url(atlas.png);
+}
+
+
+
+.parallex{
+  background-image: url(i18.jpg);
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.parallex1{
+    background-image: url(i19.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.parallex3{
+    background-attachment: fixed;
+    background-image: url(i12.jpg);
+    background-size: cover;
+    
+}
+
+.text{
+    color: aliceblue;
+    font-size: 20px; 
+}
+
+.abhishek{
+    background-image: url(i1.jpg);
+  
+}
+
+.normal{
+    height: 100px;
+    width: 100%;
+}
+
+html{scroll-behavior: smooth;}
